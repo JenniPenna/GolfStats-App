@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/golfstats
+    username: golf
+    password: golf
+  jpa:
+    hibernate:
+      ddl-auto: validate
