@@ -10,7 +10,7 @@ CREATE TABLE course (
     id BIGSERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     location VARCHAR(255),
-    holes_count INT NOT NULL DEFAULT 18,
+    holes_count INT NOT NULL DEFAULT 18
 );
 
 CREATE TABLE course_hole (
